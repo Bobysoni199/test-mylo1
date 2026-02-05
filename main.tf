@@ -86,11 +86,11 @@ module "ecs_service" {
 #   mylo1_tags = var.mylo1_tags
 # }
 
-# module "app_bucket" {
-#   source      = "./modules/s3-import-module"
-#   bucket_name = "wtw-backend"
-#   mylo1_tags  = var.mylo1_tags
-# }
+module "app_bucket" {
+  source      = "./modules/s3-import-module"
+  bucket_name = "wtw-backend"
+  mylo1_tags  = var.mylo1_tags
+}
 # module "ecr_backend" {
 #   source     = "./modules/ecr"
 #   repo_name  = "wtw-backend"

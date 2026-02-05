@@ -17,8 +17,8 @@ azs             = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
 public_subnets  = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
 private_subnets = ["10.0.11.0/24", "10.0.12.0/24", "10.0.13.0/24"]
 
-bucket_name         = "bobytestbucket2"
-dynamodb_table_name = "terraform-state-lock-backend2"
+bucket_name         = "my-terraform-state-mumbai-backend"
+dynamodb_table_name = "terraform-state-lock-backend"
 region              = "ap-south-1"
 
 
