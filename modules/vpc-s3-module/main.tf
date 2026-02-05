@@ -5,7 +5,7 @@ resource "aws_vpc" "this" {
   enable_dns_hostnames = true
 
  tags = merge(
-    var.mylo1_tagstags,
+    var.mylo1_tags,
     {
       Name = "${var.name_prefix}-vpc"
 
